@@ -120,23 +120,35 @@ function App() {
         <a href="https://training.zuri.team/" className="btn" id="btn__zuri">
           Zuri Team
         </a>
-        <a href="http://books.zuri.team/" className="btn" id="books">
+        <a
+          href="http://books.zuri.team/"
+          className="btn"
+          id="books"
+          title="This is where you will find books about design and coding"
+        >
           Zuri Books
         </a>
         <a
           href="https://books.zuri.team/python-for-beginners?ref_id=Mayorhack"
           className="btn"
           id="book__python"
+          title="Wanna become a pro in python, 'Python for Beginners' is the book for you"
         >
           Python Books
         </a>
-        <a href="https://background.zuri.team/" className="btn" id="pitch">
+        <a
+          href="https://background.zuri.team/"
+          className="btn"
+          id="pitch"
+          title="Want the coders with the best background, our algorithm provides the best result for you"
+        >
           Background Check for Coders
         </a>
         <a
           href="https://books.zuri.team/design-rules"
           className="btn"
           id="book__design"
+          title="New to design, Zuri has got your back with the best design book for u"
         >
           Design Books
         </a>
