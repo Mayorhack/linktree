@@ -130,7 +130,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
-  padding: 48px 0px;
+  padding: 48px 16px;
   margin-top: 64px;
 }
 footer p {
@@ -154,6 +154,5 @@ footer p {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 20px;
-    padding: 16px;
   }
 }
