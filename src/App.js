@@ -114,7 +114,7 @@ function App() {
         </div>
       </header>
       <section>
-        <a href="" className="btn">
+        <a href="www.twitter.com" className="btn">
           Twitter Link
         </a>
         <a href="https://training.zuri.team/" className="btn" id="btn__zuri">
