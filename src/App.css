@@ -21,7 +21,7 @@ a {
   color: #101828;
 }
 header {
-  margin-block: 64px 56px;
+  margin-block: 64px 42px;
   position: relative;
   text-align: center;
 }
@@ -67,7 +67,7 @@ header .share:hover::after {
   position: relative;
   width: 88px;
   height: 88px;
-  margin: 0 auto;
+  margin: 15px auto;
   border-radius: 50%;
 }
 .profile_image img {
