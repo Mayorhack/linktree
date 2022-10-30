@@ -33,7 +33,7 @@ function App() {
             />
           </svg>
         </div>
-        <p id="twitter">@SodipoM</p>
+        <p id="twitter">SodipoM</p>
         <p id="slack" className="hidden">
           Mayorhack
         </p>
