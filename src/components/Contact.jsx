@@ -3,11 +3,15 @@ import "../styles/contact.scss";
 
 const Contact = () => {
   const name = "Sodipo Mayowa";
+  const onsubmit = function () {
+    alert("Form Submitted successfully");
+  };
+
   return (
     <div className="contact">
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
-      <form action="">
+      <form action={onsubmit}>
         <div className="names">
           <div className="form_input">
             <label htmlFor="first_name">First Name</label>
