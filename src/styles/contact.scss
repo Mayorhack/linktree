@@ -1,6 +1,6 @@
 .contact {
   max-width: min(740px, 100vw);
-  margin: 150px auto;
+  margin: 100px auto;
   padding: 16px;
   text-align: start;
   h1 {
@@ -20,10 +20,26 @@
     margin-bottom: 48px;
   }
   form {
+    .error {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+
+      color: #f83f23;
+    }
     .form_input {
       text-align: start;
       width: 100%;
       margin-bottom: 24px;
+      position: relative;
+      .error_input {
+        border: 1px solid #f89687;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+      }
+
       label {
         display: block;
         font-weight: 500;
@@ -68,7 +84,6 @@
     }
 
     .submit_button {
-      margin-top: 32px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -84,8 +99,13 @@
     }
   }
   .flex {
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
+    position: relative;
+    .error {
+      bottom: -20px;
+    }
     span {
       margin-left: 12px;
       font-weight: 400;
@@ -98,7 +118,7 @@
       height: 20px;
       border: 1px solid #d0d5dd;
       border-radius: 6px;
-      accent-color: red;
+      accent-color: #1570ef;
     }
   }
   @media (max-width: 768px) {
