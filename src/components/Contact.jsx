@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../styles/contact.scss";
 
 const Contact = () => {
-  const name = "Mayorhack";
+  const name = "Mayowa Sodipo";
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",
